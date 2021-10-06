@@ -1,0 +1,14 @@
+{
+	"model_name_or_path": "/shared/celinel/transformers-srl/xlmr-large-onto3lang-full-cleaned",
+	"labels": "labels_files/ontonotes_3lang_nestremoved_labels.txt",
+	"fp16": true,
+	"embedding_dropout": 0.1,
+	"hidden_size": 1024,
+	"output_dir": "demos-folder-unneeded",
+	"max_seq_length": 128,
+	"do_train": false,
+	"do_eval": false,
+	"do_predict": true,
+	"overwrite_output_dir": true,
+	"cache_dir": "/shared/.cache/transformers"
+}

@@ -1,0 +1,20 @@
+{
+	"input_path": "/shared/celinel/transformers-srl/input.txt",
+	"output_path": "/shared/celinel/transformers-srl/prediction_output.txt",
+	"model_name_or_path": "xlmr-large-onto3lang-full-cleaned",
+	"output_dir": "xlmr-large-onto3lang-full-cleaned",
+	"labels": "labels_files/ontonotes_3lang_nestremoved_labels.txt",
+	"embedding_dropout": 0.1,
+	"hidden_size": 1024,
+	"max_seq_length": 128,
+	"num_train_epochs": 1,
+	"per_device_train_batch_size": 32,
+	"save_steps": 750,
+	"seed": 1,
+	"weight_decay": 0.01,
+	"learning_rate": 2e-5,
+	"do_train": false,
+	"do_eval": false,
+	"do_predict": true,
+	"overwrite_output_dir": true
+}
